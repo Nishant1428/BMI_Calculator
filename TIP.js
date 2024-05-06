@@ -16,14 +16,9 @@
             document.querySelector("#Tip_result").innerHTML = document.querySelector("#Tip_result").innerHTML+": "+result+" $"
             document.querySelector("#Amount_result").innerHTML = document.querySelector("#Amount_result").innerHTML+": "+amount+" $"    
         }
-        // else if(){
-
-        // }
         else{
         document.querySelector("#Tip_result").innerHTML = document.querySelector("#Tip_result").innerHTML+": "+result+" $"
         document.querySelector("#Amount_result").innerHTML = document.querySelector("#Amount_result").innerHTML+": "+amount+" $"
         }
     }
-    let btn = document.querySelector("#btn")
-    btn.addEventListener("click",calculate)
 </script>
